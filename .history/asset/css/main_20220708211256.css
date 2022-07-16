@@ -529,7 +529,6 @@
 
 .header__mobile-search {
     padding: 0 12px;
-    display: none;
 }
 
 .header__mobile-search-icon {
@@ -577,7 +576,6 @@
     display: inline-block;
     padding: 0 8px;
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
 }
 
 .header__cart-icon {
@@ -987,7 +985,6 @@
 
 .header__sort-item--active .header__sort-link {
     color: var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
 }
 
 .header__sort-item:first-child .header__sort-link::before {
@@ -1086,9 +1083,7 @@
 
 /* Mobile category */
 
-.mobile-category {
-    display: none;
-}
+.mobile-category {}
 
 .mobile-category__list {
     display: flex;
@@ -1102,7 +1097,6 @@
 
 .mobile-category__list::-webkit-scrollbar {
     display: none;
-    /* cách ẩn thanh scrrol khi lăn chuột */
 }
 
 .mobile-category__item {
@@ -1139,12 +1133,6 @@
     border-radius: 4px;
     font-weight: 300;
     /* giảm độ mỏng của chữ */
-    user-select: none;
-    -webkit-user-select: none;
-    /* khi ấn vào thì sẽ không bị bôi đen */
-    -webkit-tap-highlight-color: transparent;
-    /* khi ấn vào thì nó sẽ không đổi màu */
-    padding: 0 6px;
 }
 
 

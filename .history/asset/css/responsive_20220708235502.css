@@ -124,11 +124,4 @@
     .footer-item__link {
         justify-content: center;
     }
-    .foooter__download {
-        justify-content: center;
-    }
-    .footer__download-app-link {
-        display: block;
-        padding: 6px 8px;
-    }
 }

@@ -529,7 +529,6 @@
 
 .header__mobile-search {
     padding: 0 12px;
-    display: none;
 }
 
 .header__mobile-search-icon {
@@ -577,7 +576,6 @@
     display: inline-block;
     padding: 0 8px;
     cursor: pointer;
-    -webkit-tap-highlight-color: transparent;
 }
 
 .header__cart-icon {
@@ -987,7 +985,6 @@
 
 .header__sort-item--active .header__sort-link {
     color: var(--primary-color);
-    border-bottom: 2px solid var(--primary-color);
 }
 
 .header__sort-item:first-child .header__sort-link::before {
@@ -1086,9 +1083,7 @@
 
 /* Mobile category */
 
-.mobile-category {
-    display: none;
-}
+.mobile-category {}
 
 .mobile-category__list {
     display: flex;
@@ -1100,51 +1095,19 @@
     /* đối tượng con vượt quá chiều ngang thì sẽ sinh ra thanh scrrol */
 }
 
-.mobile-category__list::-webkit-scrollbar {
-    display: none;
-    /* cách ẩn thanh scrrol khi lăn chuột */
-}
-
 .mobile-category__item {
     flex-shrink: 0;
-    margin-right: 10px;
-}
-
-.mobile-category__item:nth-of-type(3n + 1) .mobile-category__link {
-    background-color: #87afd8;
-}
-
-.mobile-category__item:nth-of-type(3n + 2) .mobile-category__link {
-    background-color: #79c9bd;
-}
-
-.mobile-category__item:nth-of-type(3n + 3) .mobile-category__link {
-    background-color: #88cf81;
 }
 
 .mobile-category__link {
-    --line-height: 2rem;
     text-decoration: none;
-    color: var(--white-color);
+    color: var(--text-color);
+    /* color: var(--white-color); */
     font-size: 1.4rem;
-    line-height: var(--line-height);
-    height: calc(var(--line-height) * 2);
-    overflow: hidden;
+    line-height: 2rem;
     text-align: center;
-    display: block;
-    display: -webkit-box;
-    --webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    width: 110px;
-    border-radius: 4px;
-    font-weight: 300;
-    /* giảm độ mỏng của chữ */
-    user-select: none;
-    -webkit-user-select: none;
-    /* khi ấn vào thì sẽ không bị bôi đen */
-    -webkit-tap-highlight-color: transparent;
-    /* khi ấn vào thì nó sẽ không đổi màu */
-    padding: 0 6px;
+    width: 108px;
+    height: 40px;
 }
 
 

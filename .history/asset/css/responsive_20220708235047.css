@@ -1,10 +1,6 @@
 /* Mobile & Tablet */
 
 @media (max-width: 1023px) {
-     :root {
-        --header-height: 120px;
-        --navbar-height: 0px;
-    }
     .hide-on-mobile-tablet {
         display: none;
     }
@@ -43,6 +39,10 @@
 /*  Tablet */
 
 @media (min-width: 740px) and (max-width: 1023px) {
+     :root {
+        --header-height: 120px;
+        --navbar-height: 0px;
+    }
     .hide-on-tablet {
         display: none;
     }
@@ -56,6 +56,10 @@
 /* Mobile  */
 
 @media (max-width: 739px) {
+     :root {
+        --header-height: 120px;
+        --navbar-height: 0px;
+    }
     .hide-on-mobile {
         display: none;
     }
@@ -117,18 +121,5 @@
     }
     .foooter__content {
         padding: 0 30px;
-    }
-    .footer__heading {
-        text-align: center;
-    }
-    .footer-item__link {
-        justify-content: center;
-    }
-    .foooter__download {
-        justify-content: center;
-    }
-    .footer__download-app-link {
-        display: block;
-        padding: 6px 8px;
     }
 }

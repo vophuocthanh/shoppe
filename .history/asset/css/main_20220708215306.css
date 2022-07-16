@@ -1144,7 +1144,6 @@
     /* khi ấn vào thì sẽ không bị bôi đen */
     -webkit-tap-highlight-color: transparent;
     /* khi ấn vào thì nó sẽ không đổi màu */
-    padding: 0 6px;
 }
 
 

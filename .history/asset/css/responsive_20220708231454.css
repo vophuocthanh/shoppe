@@ -115,20 +115,7 @@
     .header__logo-img {
         width: 110px;
     }
-    .foooter__content {
-        padding: 0 30px;
-    }
-    .footer__heading {
-        text-align: center;
-    }
-    .footer-item__link {
-        justify-content: center;
-    }
-    .foooter__download {
-        justify-content: center;
-    }
-    .footer__download-app-link {
-        display: block;
-        padding: 6px 8px;
+    .footer {
+        padding: 0 16px;
     }
 }
